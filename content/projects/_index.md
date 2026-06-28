@@ -1,6 +1,5 @@
 +++
 title = "我的專案與作品集"
-layout = "single"
 +++
 
 ## 網頁與軟體開發
@@ -28,3 +27,4 @@ layout = "single"
 ### 🎨 個人 UI/UX 設計作品集
 *   **專案連結**：[Firebase App Hosting](https://hosted.app)
 *   **專案簡介**：在 Figma 上設計的行動裝置 App 介面，專注於使用者經驗優化與現代簡約風格的視覺傳達。
+
