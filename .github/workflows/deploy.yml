@@ -1,9 +1,5 @@
 name: Deploy Hugo site to Pages
 
-uses: peaceiris/actions-hugo@v3
-with:
-    hugo-version: '0.161.0' # Or set to 'latest'
-    extended: true
 on:
   push:
     branches:
@@ -40,7 +36,7 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: 'latest'
+          hugo-version: '0.161.0' # 這裡強制指定版本，不使用 'latest'
           extended: true
 
       - name: Setup Pages
